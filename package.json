@@ -1,0 +1,30 @@
+{
+  "name": "basecss",
+  "version": "1.0.0",
+  "description": "SASS base styles",
+  "main": "src/_index.scss",
+  "style": "src/_index.scss",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeAdraas/basestyle.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.51.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "scope": "@codeadraas"
+  },
+  "bugs": {
+    "url": "https://github.com/CodeAdraas/basestyle/issues"
+  },
+  "homepage": "https://github.com/CodeAdraas/basestyle#readme",
+  "author": "CodeAdraas",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+@mixin col-2 {
+  grid-template-columns: repeat(2,minmax(0px,1fr));
+}
+
+@mixin col-2-left-grow {
+  grid-template-columns: minmax(0px,1fr) auto;
+}
+
+@mixin col-2-right-grow {
+  grid-template-columns: auto minmax(0px,1fr);
+}
+
+@mixin col-3 {
+  grid-template-columns: repeat(3,minmax(0px,1fr));
+}

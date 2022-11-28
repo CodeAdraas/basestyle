@@ -1,0 +1,27 @@
+@mixin flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+@mixin reverse {
+  flex-direction: row-reverse;
+}
+
+@mixin wrap {
+  flex-wrap: wrap;
+}
+
+@mixin vertical {
+  flex-direction: column;
+}
+
+@mixin grow {
+  flex: 1 0 auto;
+}
+
+@mixin shrink {
+  flex: 0 1 auto;
+}
