@@ -1,5 +1,5 @@
 {
-  "name": "basecss",
+  "name": "@codeadraas/style",
   "version": "1.0.0",
   "description": "SASS base styles",
   "main": "src/_index.scss",

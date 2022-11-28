@@ -1,1 +1,4 @@
 .github
+*.tgz
+.gitignore
+package-lock.json
